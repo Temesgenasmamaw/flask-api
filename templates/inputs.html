@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{appName}}</title>
+</head>
+
+<body>
+    <h2>please input the value</h2>
+    <form action="predict" method="POST">
+        N <input type="number" required placeholder="nitrogn" name="nitrogn"> <br><br>
+        P <input type="number" required placeholder="phosphorus" name="phosphorus"><br><br>
+        K <input type="number" required placeholder="potassium" name="potassium"><br><br>
+        Temprature <input type="number" required placeholder="Temprature" name="Temprature"><br><br>
+        Humidity <input type="number" required placeholder="Humidity" name="Humidity"><br><br>
+        Rainfall <input type="number" required placeholder="Rainfall" name="Rainfall"> <br><br>
+        pH <input type="number" required placeholder="pH" name="pH"><br><br>
+        
+
+        <input type="submit" Recommend>
+        <button><a class="bottom" href="{{url_for('hello_world')}}"> go to home </a></button>
+    </form>
+</body>
+
+</html>
